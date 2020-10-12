@@ -12,6 +12,12 @@ This script finds Pseudo-Random numbers using Linear Congruential Method
 
 More Info: https://www.eg.bucknell.edu/~xmeng/Course/CS6337/Note/master/node40.html
 
+### [Combined Linear Congruential Method](https://github.com/manjotsidhu/CyberSecurity-Scripts/blob/master/03_CLCG/clcg.py)
+This script finds Pseudo-Random numbers using Combined Linear Congruential Method 
+
+Reference: https://en.wikipedia.org/wiki/Combined_linear_congruential_generator
+More Info: http://www.new-npac.org/projects/cdroms/cewes-1999-06-vol1/cps615course/csematerials/applications/mc/montecarlo/node107.html
+
 
 # Disclaimer
 
