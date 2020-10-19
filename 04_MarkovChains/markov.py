@@ -1,5 +1,5 @@
 """
-  This python script builds Markov Chain
+  This python script builds Markov Chain and uses TPM to calculate states.
   
   Copyright (C) 2020-2021, Manjot Sidhu <manjot.techie@gmail.com>
 
@@ -93,7 +93,22 @@ class MarkovChain(object):
 		print('-'*len(self.keys)*3)
 
 
+	def markov_inequality(self, state, a=1):
+		print("\nMarkov's Inequality")
+
+		E = self.tpm[self.keys.index(state)]
+		for i in range(0, len(E)):
+			E[i] = E[i]*i
+
+		E = sum(E)
+		print(f'E[X] = {E}')
+		print(f'a = {a}')
+
+		print(f'\n=> P(X >= {a}) <= {E/a}')
+
+
 mc = MarkovChain("abcabc")
 mc.print_tpm()
 mc.next_state("c", show=True)
 mc.generate_states("a", show=True, no=10)
+mc.markov_inequality('a', a=21)
