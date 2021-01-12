@@ -16,6 +16,7 @@ More Info: https://www.eg.bucknell.edu/~xmeng/Course/CS6337/Note/master/node40.h
 This script finds Pseudo-Random numbers using Combined Linear Congruential Method 
 
 Reference: https://en.wikipedia.org/wiki/Combined_linear_congruential_generator
+
 More Info: http://www.new-npac.org/projects/cdroms/cewes-1999-06-vol1/cps615course/csematerials/applications/mc/montecarlo/node107.html
 
 ### [Markov Chains](https://github.com/manjotsidhu/CyberSecurity-Scripts/blob/master/04_MarkovChains/markov.py)
